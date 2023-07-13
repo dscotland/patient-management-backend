@@ -1,0 +1,22 @@
+{
+    "extends": "../../../tsconfig.json",
+    "compilerOptions": {
+      "outDir": "lib",
+      "downlevelIteration": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "declaration": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "lib": [
+        "es2018","DOM"
+      ],
+      "module": "commonjs",
+      "noEmitOnError": true,
+      "noFallthroughCasesInSwitch": true,
+      "pretty": true,
+      "strict": true,
+      "target": "es2018"
+    },
+    "exclude": ["lib"]
+  }
